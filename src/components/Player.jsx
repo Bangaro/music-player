@@ -80,7 +80,7 @@ function Player({
         : setCurrentSong(songs[currentIndex - 1]);
     }
 
-    if (isPlaying) audioRef.current.play();
+    audioRef.current.play();
   };
 
   const trackAnim = {
